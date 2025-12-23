@@ -8,139 +8,144 @@ import { useState } from "react"
 
 const programs = [
   {
-    title: "Fitness",
+    title: "Kids Martial Arts",
     description:
-      "Access our fully equipped gym with state-of-the-art weight lifting equipment, cardio machines, locker rooms, saunas, and showers. All memberships include a free one-hour fitness consultation.",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/fitness-main-212393.jpg",
+      "Give your child a chance to grow and develop confidence today. These classes are the perfect balance of maintaining health and fitness and improving confidence and discipline.",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/w_600,h_425/6719/Kids-Martial-Arts-152317.jpg",
     objectPosition: "center",
     fullDescription: (
       <div className="space-y-4">
         <p className="text-muted-foreground">
-          Our state-of-the-art fitness facility offers everything you need to achieve your goals. With your membership, you'll have access to our facility any time during open hours.
+          Our kids program teaches martial arts fundamentals while building character, confidence, and physical fitness. Children learn respect, discipline, and self-defense in a supportive environment.
         </p>
         <div className="space-y-3">
-          <h4 className="font-semibold text-foreground">Included Amenities:</h4>
+          <h4 className="font-semibold text-foreground">Program Benefits:</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>Weight Room:</strong> Complete lifting equipment for strength training</li>
-            <li><strong>Cardio Machines:</strong> Treadmills, ellipticals, stationary bikes, and more</li>
-            <li><strong>Locker Rooms:</strong> Private facilities with saunas and showers</li>
-            <li><strong>Free WiFi:</strong> Stay connected during your workout</li>
-            <li><strong>Personal Training:</strong> Optional one-on-one coaching available</li>
+            <li><strong>Self-Defense:</strong> Learn practical skills to stay safe</li>
+            <li><strong>Confidence:</strong> Build self-esteem through achievement</li>
+            <li><strong>Discipline:</strong> Develop focus and respect</li>
+            <li><strong>Fitness:</strong> Stay active and healthy</li>
+            <li><strong>Fun:</strong> Enjoy learning in a positive environment</li>
           </ul>
         </div>
       </div>
     ),
   },
   {
-    title: "Group Exercise",
+    title: "Brazilian Jiu-Jitsu",
     description:
-      "Join our group exercise classes designed to keep you interested and motivated. From cycling to fitness classes, we have something for everyone looking to lose weight and have fun.",
-    image: "https://res.cloudinary.com/display97/image/upload/7466/pick-up-56-213370.jpg",
+      "Our Brazilian Jiu-Jitsu program can help you learn the skills of ground grappling one step at a time. We train men and women all across West Hartford and beyond. All experience levels are welcome.",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/w_600,h_425/6719/BJJ-152321.jpg",
     objectPosition: "center",
     fullDescription: (
       <div className="space-y-4">
         <p className="text-muted-foreground">
-          Our highly trained instructors guide you through varied workouts in a supportive group environment. Group classes are a great way to stay motivated and meet new people.
+          Brazilian Jiu-Jitsu emphasizes ground fighting and submission holds. Our BJJ program teaches you how to control and submit opponents regardless of size or strength through proper technique.
         </p>
         <div className="space-y-3">
-          <h4 className="font-semibold text-foreground">Class Options:</h4>
+          <h4 className="font-semibold text-foreground">Program Features:</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>Cycle Studio:</strong> High-energy cycling workouts with trained instructors</li>
-            <li><strong>Group Fitness:</strong> Various formats to keep you challenged</li>
-            <li><strong>Personal Training:</strong> One-on-one attention for faster results</li>
+            <li><strong>Fundamentals:</strong> Learn the basics of positions and submissions</li>
+            <li><strong>Advanced Techniques:</strong> Refine your skills with complex moves</li>
+            <li><strong>Live Sparring:</strong> Apply techniques in controlled rolling sessions</li>
+            <li><strong>Belt Progression:</strong> Structured curriculum for advancement</li>
+            <li><strong>Competition Training:</strong> Prepare for tournaments and competitions</li>
           </ul>
         </div>
       </div>
     ),
   },
   {
-    title: "Sports",
+    title: "Striking",
     description:
-      "Get moving with our youth and adult sports leagues and drop-in games! We offer Basketball, Baseball, Football, Soccer, Lacrosse, and more. There's never a wrong time to get started!",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/sports-main-212395.jpg",
+      "Burn fat and build lean muscle while you learn some of the most effective self-defense skills around. Our Striking Classes in West Hartford are perfect for all ages and abilities.",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/w_600,h_425/6719/Striking-152320.jpg",
     objectPosition: "center",
     fullDescription: (
       <div className="space-y-4">
         <p className="text-muted-foreground">
-          Proehlific Park offers comprehensive sports programming for athletes of all ages and skill levels. Join a league or come for drop-in games.
+          Our striking program develops powerful skills using Boxing and Muay Thai techniques, exceptional conditioning, and mental toughness.
         </p>
         <div className="space-y-3">
-          <h4 className="font-semibold text-foreground">Sports We Offer:</h4>
+          <h4 className="font-semibold text-foreground">Training Focus:</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>Basketball:</strong> Youth and adult leagues plus open gym</li>
-            <li><strong>Baseball:</strong> Training and league play</li>
-            <li><strong>Football:</strong> Skills training and team sports</li>
-            <li><strong>Soccer:</strong> Indoor and outdoor programs</li>
-            <li><strong>Lacrosse:</strong> Growing program for all skill levels</li>
+            <li><strong>Striking Techniques:</strong> Punches, kicks, knees, and elbows</li>
+            <li><strong>Clinch Work:</strong> Close-range fighting and control</li>
+            <li><strong>Cardio Conditioning:</strong> Build incredible endurance</li>
+            <li><strong>Pad Work:</strong> Develop power and accuracy</li>
+            <li><strong>Sparring:</strong> Apply techniques in controlled scenarios</li>
           </ul>
         </div>
       </div>
     ),
   },
   {
-    title: "Youth Programs",
+    title: "Mixed Martial Arts",
     description:
-      "When school is out, come on in! We offer After School Care, Summer Camps, and child care on teacher workdays, holidays, and inclement weather closings. Kids love sports, games, and arts & crafts!",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/youth-main-212394.jpg",
+      "Learn the best blend of fighting techniques with our MMA classes in West Hartford. We are helping our community get in shape fast and learn the best self-defense skills in town.",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/w_600,h_425/6719/MMA-152322.jpg",
     objectPosition: "center",
     fullDescription: (
       <div className="space-y-4">
         <p className="text-muted-foreground">
-          Our youth programs are designed to keep kids active, engaged, and having fun. Our dedicated staff creates a safe, nurturing environment for children of all ages.
-        </p>
-        <div className="space-y-3">
-          <h4 className="font-semibold text-foreground">Programs Include:</h4>
-          <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>After School Care:</strong> Safe, fun environment after school hours</li>
-            <li><strong>Summer Blast Camp:</strong> Full summer programming with activities</li>
-            <li><strong>Holiday Care:</strong> Coverage during school breaks and closings</li>
-            <li><strong>Sports & Games:</strong> Dodgeball, arts and crafts, and more</li>
-          </ul>
-        </div>
-      </div>
-    ),
-  },
-  {
-    title: "PSP Training",
-    description:
-      "Our Proehlific Sports Performance program offers elite training for serious athletes looking to take their game to the next level with professional coaching and facilities.",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/psp-main-212328.jpg",
-    objectPosition: "center",
-    fullDescription: (
-      <div className="space-y-4">
-        <p className="text-muted-foreground">
-          PSP (Proehlific Sports Performance) is our elite training program designed for athletes who want to maximize their potential. Work with experienced coaches in a professional setting.
+          Our MMA program combines the best techniques from multiple martial arts disciplines. Train in a safe, structured environment with experienced instructors who will help you develop both striking and grappling skills.
         </p>
         <div className="space-y-3">
           <h4 className="font-semibold text-foreground">Training Includes:</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>Strength & Conditioning:</strong> Build power and endurance</li>
-            <li><strong>Speed & Agility:</strong> Improve quickness and reaction time</li>
-            <li><strong>Sport-Specific Training:</strong> Tailored to your sport</li>
-            <li><strong>Professional Coaching:</strong> Learn from experienced trainers</li>
+            <li><strong>Striking:</strong> Boxing and Muay Thai techniques</li>
+            <li><strong>Grappling:</strong> Brazilian Jiu-Jitsu and wrestling</li>
+            <li><strong>Fight Strategy:</strong> Learn to combine techniques effectively</li>
+            <li><strong>Conditioning:</strong> Build strength and endurance</li>
+            <li><strong>All Skill Levels:</strong> From beginners to advanced competitors</li>
           </ul>
         </div>
       </div>
     ),
   },
   {
-    title: "Facility Rentals",
+    title: "Wrestling",
     description:
-      "Host your event, birthday party, or team practice at Proehlific Park. Our versatile facility spaces are available for rental with full amenities and support staff.",
-    image: "https://res.cloudinary.com/display97/image/upload/7466/summer-blast-41-255680.jpg",
+      "Our Wrestling Classes in West Hartford is the perfect way for beginners and experienced wrestlers to build their skills and challenge their bodies like never before.",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/w_600,h_425/6719/Wrestling-2-153293.jpg",
     objectPosition: "center",
     fullDescription: (
       <div className="space-y-4">
         <p className="text-muted-foreground">
-          Looking for a venue for your next event? Proehlific Park offers flexible rental options for parties, team events, corporate gatherings, and more.
+          Wrestling is one of the most effective martial arts for controlling opponents and taking fights to the ground. Our wrestling program teaches takedowns, positioning, and control techniques.
         </p>
         <div className="space-y-3">
-          <h4 className="font-semibold text-foreground">Rental Options:</h4>
+          <h4 className="font-semibold text-foreground">Training Includes:</h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
-            <li><strong>Birthday Parties:</strong> Make their day special</li>
-            <li><strong>Team Events:</strong> Practice and game space</li>
-            <li><strong>Corporate Events:</strong> Team building and meetings</li>
-            <li><strong>Private Events:</strong> Custom arrangements available</li>
+            <li><strong>Takedowns:</strong> Single legs, double legs, and throws</li>
+            <li><strong>Position Control:</strong> Maintain dominant positions</li>
+            <li><strong>Escapes:</strong> Get out of bad positions</li>
+            <li><strong>Strength Training:</strong> Build functional strength</li>
+            <li><strong>Competition Prep:</strong> Train for wrestling competitions</li>
+          </ul>
+        </div>
+      </div>
+    ),
+  },
+  {
+    title: "Underdog Fitness",
+    description:
+      "Are you sick of boring treadmill workouts at over-priced gyms? Our Fitness programs offer a wide range of elements guaranteed to give you amazing results.",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/w_600,h_425/6719/Fitness-Classes-152319.jpg",
+    objectPosition: "center",
+    fullDescription: (
+      <div className="space-y-4">
+        <p className="text-muted-foreground">
+          Get started today to see real results and enjoy a support system like never before. Our fitness program combines martial arts conditioning with functional training.
+        </p>
+        <div className="space-y-3">
+          <h4 className="font-semibold text-foreground">Program Benefits:</h4>
+          <ul className="space-y-2 text-sm text-muted-foreground">
+            <li><strong>Full Body Workouts:</strong> Burn fat and build muscle</li>
+            <li><strong>Functional Training:</strong> Real-world fitness results</li>
+            <li><strong>Community Support:</strong> Train with motivated people</li>
+            <li><strong>Expert Coaching:</strong> Professional instruction</li>
+            <li><strong>Flexible Schedule:</strong> Classes throughout the week</li>
           </ul>
         </div>
       </div>
@@ -164,11 +169,11 @@ export function Classes() {
         <div className="mb-16 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Our Programs</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            From fitness to youth sports, we have programs designed to help the whole family achieve their goals
+            Expert martial arts instruction for all skill levels. From beginners to competitors, we have the right program for you.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 max-w-7xl mx-auto mb-16 justify-items-center">
           {programs.map((program, index) => (
             <div
               key={index}
@@ -211,9 +216,9 @@ export function Classes() {
               <Info className="h-4 w-4" />
               Take a Tour
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Experience Proehlific Park</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Experience Underdog MMA</h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl">
-              Please stop by and take a tour! We would love to meet you and show you our awesome facility. Become a member of the Park and together we can enjoy the P.O.W.E.R. of Play!
+              Come visit our facility and see why Underdog MMA is West Hartford's premier martial arts academy. We'd love to meet you and show you what makes our training special.
             </p>
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-8">
               <Button
@@ -223,21 +228,7 @@ export function Classes() {
               >
                 Request More Info
               </Button>
-              <p className="text-sm text-muted-foreground">Programs for all ages • Family-friendly facility</p>
-            </div>
-            <div className="relative rounded-2xl overflow-hidden shadow-lg">
-              <video
-                autoPlay
-                muted
-                loop
-                playsInline
-                controls
-                className="w-full h-auto"
-                poster="https://res.cloudinary.com/display97/video/upload/so_0/dawynyrmvdjvs7xlinsy.jpg"
-              >
-                <source src="https://res.cloudinary.com/display97/video/upload/vc_auto/dawynyrmvdjvs7xlinsy.mp4" type="video/mp4" />
-                <source src="https://res.cloudinary.com/display97/video/upload/vc_auto/dawynyrmvdjvs7xlinsy.webm" type="video/webm" />
-              </video>
+              <p className="text-sm text-muted-foreground">Programs for all skill levels • Expert instruction</p>
             </div>
           </div>
         </div>

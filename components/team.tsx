@@ -5,100 +5,52 @@ import { useState } from "react"
 
 const teamMembers = [
   {
-    name: "Ricky Proehl",
-    role: "Owner & CEO",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Ricky-Proehl-241970.png",
-    bio: "Former NFL wide receiver and founder of Proehlific Park, dedicated to inspiring the community through sports and fitness.",
+    name: "Coach Russell Leak",
+    role: "Head MMA Coach & Striking Instructor",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/6719/Coach-Russell-Leak-153936.jpg",
+    bio: "The owner of Underdog MMA, Sifu Russell Leak began training Jeet Kune Do under Master Instructor Chris Smith in 2003. A true teacher who is dedicated, passionate and has the rare ability to truly train and improve his students.",
   },
   {
-    name: "Norman Klick",
-    role: "General Counsel",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Norman-Klick-241968.png",
-    bio: "Experienced leader helping guide the vision and legal operations of Proehlific Park.",
+    name: "Coach John Durrett",
+    role: "Head S&C Coach / General Manager",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/6719/John-Durrett-153657.jpg",
+    bio: "Coach John Durrett has been working in the fitness/athletics industry as a personal trainer or strength and conditioning coach for over a decade.",
   },
   {
-    name: "Steve Shelton",
-    role: "COO & Athletic Director",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Steve-Shelton-241971.png",
-    bio: "Dedicated to developing youth sports programs and building community through athletics.",
+    name: "Professor Diogo Araujo",
+    role: "Head Brazilian Jiu-Jitsu Instructor",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/6719/Diogo-Moreno-Araujo-173884.jpg",
+    bio: "Diogo 'Moreno' Araujo is the head Brazilian Jiu-Jitsu coach at Underdog MMA. A storied and active competitor who has competed on the regional, national, and international level.",
   },
   {
-    name: "Katie Allegro",
-    role: "COO & Pickleball Teaching Pro",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Katie-Allegro-242404.png",
-    bio: "Certified pickleball pro and COO specializing in group exercise and personal training programs.",
+    name: "Coach Kia Gholampour",
+    role: "Head Wrestling Coach / MMA Coach",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/6719/Kia-Gholampour-153659.jpg",
+    bio: "Coach Kia wrestled for Farmington High School, while doing Greco-Roman and Freestyle wrestling in the off seasons at the Bristol Boys and Girls Club.",
   },
   {
-    name: "Doug Henderson",
-    role: "COO & Adult Fitness Director",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Doug-Henderson-241976.png",
-    bio: "Experienced trainer focused on adult fitness, strength and conditioning for athletes of all levels.",
+    name: "Johnny Lopez",
+    role: "Kid's BJJ Coach",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/6719/Johnny-Lopez-154330.jpg",
+    bio: "Johnny Lopez began training at our academy in 2012 and quickly established himself as one of the top 125 lbs fighters in the area.",
   },
   {
-    name: "Dave Martin",
-    role: "Director Of Operations",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Dave-Martin-241979.png",
-    bio: "Dedicated director helping members achieve their fitness goals through excellent facility operations.",
+    name: "Stephanie Fox",
+    role: "Women's BJJ Coach",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/6719/Stephanie-Fox-218770.jpg",
+    bio: "Stephanie Fox is a black belt in Brazilian Jiu-Jitsu under head coach Diogo 'Moreno' Araujo. She is an ambassador for Tap Cancer Out, a Jiu-Jitsu based nonprofit.",
   },
   {
-    name: "Natasha Hilburn",
-    role: "P.O.W.E.R. of Play Foundation Director",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Natasha-Hilburn-241980.png",
-    bio: "Passionate about helping others discover the power of play through community programs and outreach.",
+    name: "Adel Lolic",
+    role: "Striking Coach",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/6719/Adel-Lolic-154332.jpg",
+    bio: "Coach Adel has been training and competing in various forms of martial arts for over a decade. He was a multi-sport athlete in high school.",
   },
   {
-    name: "Jade McLean",
-    role: "Youth Program Director",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Jade-McLean-293583.jpg.jpg",
-    bio: "Dedicated youth program director creating fun and engaging experiences for children of all ages.",
-  },
-  {
-    name: "Megan Rees",
-    role: "Rental and Events Director",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Megan-Rees-261496.jpg",
-    bio: "Expert in coordinating facility rentals and events, ensuring memorable experiences for all guests.",
-  },
-  {
-    name: "Courtney Schroyer",
-    role: "Personal Trainer & Instructor",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Courtney-Schroyer-292848.jpg.jpg",
-    bio: "Certified personal trainer dedicated to helping clients reach their fitness goals through personalized coaching.",
-  },
-  {
-    name: "Chris Chapman",
-    role: "Wellness Director",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Chris-Chapman-241989.png",
-    bio: "Wellness expert focused on holistic health and fitness programs for the entire community.",
-  },
-  {
-    name: "Chris Kennedy",
-    role: "Flag Football Director",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Chris-Kennedy-242676.png",
-    bio: "Passionate about youth flag football, developing skills and sportsmanship in young athletes.",
-  },
-  {
-    name: "Tristan Kilgannon",
-    role: "Flag Football Director",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Tristan-Kilgannon-285306.jpg",
-    bio: "Dedicated to growing flag football programs and teaching the fundamentals of the game.",
-  },
-  {
-    name: "Vicky Proehl",
-    role: "Front Desk Specialist",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Vicky-Proehl-241990.png",
-    bio: "Welcoming face of Proehlific Park, ensuring every visitor feels at home from the moment they arrive.",
-  },
-  {
-    name: "Kato Proehl",
-    role: "Chief Supervisor",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Kato-Proehl--241982.png",
-    bio: "Overseeing daily operations and ensuring the facility runs smoothly for all members and guests.",
-  },
-  {
-    name: "Daren Dorsett",
-    role: "Maintenance Supervisor",
-    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Daren-Dorsett-241981.png",
-    bio: "Keeping Proehlific Park in top condition, ensuring a safe and well-maintained environment for everyone.",
+    name: "Christopher Samboy",
+    role: "Wrestling / MMA Coach",
+    image: "https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/6719/Christopher-Samboy-153655.jpg",
+    bio: "Coach Chris Samboy began wrestling his Sophomore year of high school in 2010. His passion for the sport and combat sports has driven him ever since.",
   },
 ]
 
@@ -110,25 +62,25 @@ export function Team() {
       <div className="container mx-auto px-4">
         <div className="mb-16 text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Meet Our <span className="text-primary">Team</span>
+            Meet Our <span className="text-primary">Instructors</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Our dedicated staff brings experience, passion, and expertise to help you and your family achieve your goals
+            Our experienced instructors bring years of training and competition experience to help you achieve your martial arts goals
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto justify-items-center">
           {teamMembers.map((member, index) => (
             <div
               key={index}
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
-              className={`group relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-200 via-slate-100 to-emerald-100 p-[2px] transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 ${
+              className={`group relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-200 via-slate-100 to-emerald-100 p-[2px] transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 w-full max-w-[280px] ${
                 hoveredIndex !== null && hoveredIndex !== index ? "blur-[1px] opacity-70" : ""
               }`}
             >
-              <div className="relative h-full bg-white rounded-3xl overflow-hidden">
-                <div className="relative aspect-[3/4] overflow-hidden">
+              <div className="relative h-full bg-white rounded-3xl overflow-hidden flex flex-col">
+                <div className="relative w-full h-[280px] overflow-hidden flex-shrink-0">
                   <Image
                     src={member.image}
                     alt={member.name}
@@ -140,8 +92,8 @@ export function Team() {
                     <p className="text-white/90 text-sm leading-relaxed">{member.bio}</p>
                   </div>
                 </div>
-                <div className="p-6 text-center">
-                  <h3 className="text-xl font-bold text-foreground mb-1">{member.name}</h3>
+                <div className="p-4 text-center flex-grow flex flex-col justify-center min-h-[100px]">
+                  <h3 className="text-lg font-bold text-foreground mb-1">{member.name}</h3>
                   <p className="text-primary font-medium text-sm">{member.role}</p>
                 </div>
               </div>

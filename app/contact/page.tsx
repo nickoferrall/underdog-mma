@@ -2,18 +2,18 @@ import { Metadata } from "next";
 import { HomeContent } from "@/components/home-content";
 
 export const metadata: Metadata = {
-  title: "Contact Us - Proehlific Park Greensboro",
+  title: "Contact Us - Underdog MMA | West Hartford, CT",
   description:
-    "Contact Proehlific Park in Greensboro, NC. Get directions, phone number, and email. Visit us at 4517 Jessup Grove Rd.",
+    "Contact Underdog MMA in West Hartford, Connecticut. Get directions, phone number, and schedule a free trial class. Call (860) 616-1365.",
   alternates: {
-    canonical: "https://proehlificpark.com/contact",
+    canonical: "https://underdogmma.com/contact",
   },
   openGraph: {
-    title: "Contact Us - Proehlific Park Greensboro",
+    title: "Contact Us - Underdog MMA | West Hartford, CT",
     description:
-      "Contact Proehlific Park in Greensboro, NC. Get directions, phone number, and email. Visit us at 4517 Jessup Grove Rd.",
-    url: "https://proehlificpark.com/contact",
-    images: ["/proehlific-facility.jpg"],
+      "Contact Underdog MMA in West Hartford, Connecticut. Get directions, phone number, and schedule a free trial class.",
+    url: "https://underdogmma.com/contact",
+    images: ["/underdog-facility.jpg"],
   },
 };
 

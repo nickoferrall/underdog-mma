@@ -3,33 +3,33 @@ import { Dumbbell, Users, GraduationCap, Calendar, Heart, Trophy } from "lucide-
 const features = [
   {
     icon: Dumbbell,
-    title: "Fitness & Weight Room",
-    description: "State-of-the-art weight lifting equipment and cardio machines with 24/7 member access during open hours",
+    title: "Expert Instruction",
+    description: "Learn from experienced instructors with proven track records in competition and teaching",
   },
   {
     icon: Users,
-    title: "Group Exercise Classes",
-    description: "Cycling, fitness classes, and group workouts designed to help you lose weight and have fun",
+    title: "All Skill Levels",
+    description: "Programs designed for beginners, intermediate students, and advanced competitors",
   },
   {
     icon: GraduationCap,
-    title: "Youth Programs",
-    description: "After school care, summer camps, and youth sports leagues for kids of all ages",
+    title: "Kids Programs",
+    description: "Age-appropriate martial arts training that builds confidence, discipline, and self-defense skills",
   },
   {
     icon: Trophy,
-    title: "Sports Training",
-    description: "Basketball, baseball, football, soccer, lacrosse, and more for youth and adults",
+    title: "Competition Training",
+    description: "Prepare for tournaments and competitions with specialized coaching and training programs",
   },
   {
     icon: Calendar,
-    title: "Summer Blast Camp",
-    description: "Fun-filled summer program featuring sports, games, arts and crafts, and more activities",
+    title: "Flexible Schedule",
+    description: "Multiple class times throughout the week to fit your busy schedule",
   },
   {
     icon: Heart,
-    title: "Kids Club & Child Care",
-    description: "Leave your child in the care of our qualified staff while you focus on your workout",
+    title: "Community Support",
+    description: "Join a welcoming community of martial artists who support and motivate each other",
   },
 ]
 
@@ -42,7 +42,7 @@ export function Services() {
             What We <span className="text-primary">Offer</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            More than a gym - a community dedicated to helping you and your family achieve your goals
+            Premier martial arts training in West Hartford. Expert instruction, supportive community, and programs for all skill levels.
           </p>
         </div>
 

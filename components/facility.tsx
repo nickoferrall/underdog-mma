@@ -82,10 +82,10 @@ export function Facility() {
         <div className="mb-20">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              About Proehlific Park
+              About Underdog MMA
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Your home for sports, fitness, and community
+              Premier martial arts training in West Hartford, Connecticut
             </p>
           </div>
 
@@ -93,19 +93,19 @@ export function Facility() {
             <CardContent className="p-8 md:p-12">
               <div className="space-y-4 text-muted-foreground leading-relaxed text-lg">
                 <p>
-                  The Proehlific Park mission is to{" "}
-                  <span className="font-bold text-foreground">inspire</span>,{" "}
-                  <span className="font-bold text-foreground">cultivate</span>, and{" "}
-                  <span className="font-bold text-foreground">ignite</span> the P.O.W.E.R. within each of us no matter our age using sport, exercise, play and spirituality as tools for life.
+                  Underdog MMA is West Hartford&apos;s premier martial arts academy, dedicated to providing{" "}
+                  <span className="font-bold text-foreground">expert instruction</span>,{" "}
+                  <span className="font-bold text-foreground">personal growth</span>, and{" "}
+                  <span className="font-bold text-foreground">community support</span> through the practice of martial arts.
                 </p>
                 <p>
-                  Founded by former NFL wide receiver Ricky Proehl, Proehlific Park is Greensboro&apos;s comprehensive sports training center serving athletes and families of all ages. From our state-of-the-art fitness center to our youth programs and sports leagues, we provide everything you need to achieve your goals.
+                  We offer comprehensive training in Mixed Martial Arts (MMA), Brazilian Jiu-Jitsu (BJJ), Muay Thai, boxing, and wrestling. Our programs are designed for all skill levels, from complete beginners to advanced competitors looking to take their skills to the next level.
                 </p>
                 <p>
-                  Our dedicated staff and family-oriented community create an encouraging environment where everyone can thrive. Whether you&apos;re looking for personal training, group fitness classes, youth sports, or after school care, we have programs designed for you.
+                  Our experienced instructors are passionate about martial arts and dedicated to helping each student achieve their goals. Whether you&apos;re looking to get in shape, learn self-defense, compete, or simply be part of a supportive community, Underdog MMA has something for you.
                 </p>
                 <p className="font-semibold text-foreground text-xl pt-4">
-                  Please stop by and take a tour! We would love to meet you and together we can enjoy the P.O.W.E.R. of Play!
+                  Come visit our facility and see why Underdog MMA is the best choice for martial arts training in West Hartford!
                 </p>
               </div>
             </CardContent>
@@ -136,9 +136,9 @@ export function Facility() {
                         Address
                       </h4>
                       <p className="text-sm text-muted-foreground">
-                        4517 Jessup Grove Rd
+                        23 Andover Drive
                         <br />
-                        Greensboro, NC 27410
+                        West Hartford, CT 06110
                       </p>
                     </div>
                   </div>
@@ -150,10 +150,10 @@ export function Facility() {
                     <div>
                       <h4 className="font-bold text-foreground mb-1">Phone</h4>
                       <a
-                        href="tel:3366655233"
+                        href="tel:8606161365"
                         className="text-sm text-primary hover:text-primary/80 transition-colors"
                       >
-                        (336) 665-5233
+                        (860) 616-1365
                       </a>
                     </div>
                   </div>
@@ -165,10 +165,10 @@ export function Facility() {
                     <div>
                       <h4 className="font-bold text-foreground mb-1">Email</h4>
                       <a
-                        href="mailto:info@proehlificpark.com"
+                        href="mailto:info@underdogmma.com"
                         className="text-sm text-primary hover:text-primary/80 transition-colors"
                       >
-                        info@proehlificpark.com
+                        info@underdogmma.com
                       </a>
                     </div>
                   </div>
@@ -180,14 +180,14 @@ export function Facility() {
               <CardContent className="p-0">
                 <div className="aspect-[16/9] w-full">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3226.5!2d-79.8898!3d36.0726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s4517+Jessup+Grove+Rd%2C+Greensboro%2C+NC+27410!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.5!2d-72.7420!3d41.7628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s23+Andover+Drive+West+Hartford+CT+06110!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Proehlific Park Location"
+                    title="Underdog MMA Location - 23 Andover Drive, West Hartford CT"
                   />
                 </div>
               </CardContent>
@@ -298,7 +298,7 @@ export function Facility() {
 
                   <p className="text-xs text-muted-foreground text-center">
                     By submitting this form, you agree to receive SMS messages
-                    from Proehlific Park to provide the information you requested
+                    from Underdog MMA to provide the information you requested
                     about programs and membership. Message and data rates may
                     apply. Reply STOP to opt-out anytime.
                   </p>

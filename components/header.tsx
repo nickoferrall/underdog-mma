@@ -60,20 +60,20 @@ export function Header() {
           <div className="flex items-center justify-between h-10 text-sm">
             <div className="flex items-center gap-2 text-white/80">
               <MapPin className="h-4 w-4" />
-              <span className="hidden sm:inline">4517 Jessup Grove Rd, Greensboro, NC 27410</span>
-              <span className="sm:hidden">Greensboro, NC</span>
+              <span className="hidden sm:inline">23 Andover Drive, West Hartford, CT 06110</span>
+              <span className="sm:hidden">West Hartford, CT</span>
             </div>
             <div className="flex items-center gap-4">
               <a
-                href="tel:3366655233"
+                href="tel:8606161365"
                 className="flex items-center gap-2 text-white/80 hover:text-white transition-colors"
               >
                 <Phone className="h-4 w-4" />
-                <span>(336) 665-5233</span>
+                <span>(860) 616-1365</span>
               </a>
               <div className="flex items-center gap-2">
                 <a
-                  href="https://www.facebook.com/ProehlificPark/"
+                  href="https://www.facebook.com/underdogmmact/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/80 hover:text-white transition-colors"
@@ -82,31 +82,13 @@ export function Header() {
                   <Facebook className="h-4 w-4" />
                 </a>
                 <a
-                  href="https://www.instagram.com/proehlificpark/"
+                  href="https://www.instagram.com/underdogmmact/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white/80 hover:text-white transition-colors"
                   aria-label="Instagram"
                 >
                   <Instagram className="h-4 w-4" />
-                </a>
-                <a
-                  href="https://x.com/proehlificpark"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/80 hover:text-white transition-colors"
-                  aria-label="X (Twitter)"
-                >
-                  <Twitter className="h-4 w-4" />
-                </a>
-                <a
-                  href="https://www.youtube.com/user/ProehlificPOWER"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white/80 hover:text-white transition-colors"
-                  aria-label="YouTube"
-                >
-                  <Youtube className="h-4 w-4" />
                 </a>
               </div>
             </div>
@@ -117,13 +99,10 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-2">
-            <Image
-              src="/proehlific-logo.png"
-              alt="Proehlific Park"
-              width={180}
-              height={60}
-              className="h-14 w-auto"
-              priority
+            <img 
+              src="/underdog-logo.webp" 
+              alt="Underdog MMA" 
+              className="h-16 w-auto"
             />
           </Link>
 

@@ -7,53 +7,53 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Proehlific Park - Greensboro's Comprehensive Sports Training Center",
+  title: "Underdog MMA | Martial Arts & Fitness in West Hartford, CT",
   description:
-    "Find the P.O.W.E.R. in Play at Proehlific Park. Greensboro's comprehensive sports training center for all ages offering fitness, sports, youth programs, and more.",
+    "Premier martial arts training in West Hartford, Connecticut. Expert instruction in MMA, Brazilian Jiu-Jitsu, Muay Thai, boxing, and wrestling for all skill levels.",
   keywords: [
-    "Proehlific Park",
-    "Greensboro gym",
-    "sports complex Greensboro",
-    "fitness center Greensboro",
-    "youth sports Greensboro",
-    "sports training Greensboro",
-    "Summer Blast",
-    "after school program Greensboro",
-    "kids sports Greensboro",
-    "personal training Greensboro",
-    "cycling classes Greensboro",
-    "group fitness Greensboro",
+    "Underdog MMA",
+    "West Hartford martial arts",
+    "MMA training Connecticut",
+    "Brazilian Jiu-Jitsu West Hartford",
+    "Muay Thai Connecticut",
+    "boxing classes West Hartford",
+    "martial arts gym Connecticut",
+    "MMA gym West Hartford",
+    "BJJ classes Connecticut",
+    "self defense West Hartford",
+    "martial arts training Connecticut",
+    "mixed martial arts West Hartford",
   ],
-  authors: [{ name: "Proehlific Park" }],
-  creator: "Proehlific Park",
-  publisher: "Proehlific Park",
-  metadataBase: new URL("https://proehlificpark.com"),
+  authors: [{ name: "Underdog MMA" }],
+  creator: "Underdog MMA",
+  publisher: "Underdog MMA",
+  metadataBase: new URL("https://underdogmma.com"),
   alternates: {
-    canonical: "https://proehlificpark.com",
+    canonical: "https://underdogmma.com",
   },
   openGraph: {
-    title: "Proehlific Park - Greensboro's Comprehensive Sports Training Center",
+    title: "Underdog MMA | Martial Arts & Fitness in West Hartford, CT",
     description:
-      "Find the P.O.W.E.R. in Play at Proehlific Park. Greensboro's comprehensive sports training center for all ages.",
-    url: "https://proehlificpark.com",
-    siteName: "Proehlific Park",
+      "Premier martial arts training in West Hartford, Connecticut. Expert instruction in MMA, BJJ, Muay Thai, and more.",
+    url: "https://underdogmma.com",
+    siteName: "Underdog MMA",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "/proehlific-facility.jpg",
+        url: "/underdog-facility.jpg",
         width: 1200,
         height: 630,
-        alt: "Proehlific Park Sports Complex in Greensboro, North Carolina",
+        alt: "Underdog MMA Martial Arts Gym in West Hartford, Connecticut",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Proehlific Park - Greensboro's Comprehensive Sports Training Center",
+    title: "Underdog MMA | Martial Arts & Fitness in West Hartford, CT",
     description:
-      "Find the P.O.W.E.R. in Play at Proehlific Park. Greensboro's comprehensive sports training center for all ages.",
-    images: ["/proehlific-facility.jpg"],
+      "Premier martial arts training in West Hartford, Connecticut. Expert instruction in MMA, BJJ, Muay Thai, and more.",
+    images: ["/underdog-facility.jpg"],
   },
   robots: {
     index: true,
@@ -72,93 +72,85 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "SportsActivityLocation",
-  name: "Proehlific Park",
-  image: "https://proehlificpark.com/proehlific-facility.jpg",
-  "@id": "https://proehlificpark.com",
-  url: "https://proehlificpark.com",
-  telephone: "+1-336-665-5233",
+  name: "Underdog MMA",
+  image: "https://underdogmma.com/underdog-facility.jpg",
+  "@id": "https://underdogmma.com",
+  url: "https://underdogmma.com",
+  telephone: "+1-860-616-1365",
   priceRange: "$$",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "4517 Jessup Grove Rd",
-    addressLocality: "Greensboro",
-    addressRegion: "NC",
-    postalCode: "27410",
+    streetAddress: "23 Andover Drive",
+    addressLocality: "West Hartford",
+    addressRegion: "CT",
+    postalCode: "06110",
     addressCountry: "US",
   },
   geo: {
     "@type": "GeoCoordinates",
-    latitude: 36.0726,
-    longitude: -79.8898,
+    latitude: 41.7628,
+    longitude: -72.7420,
   },
   openingHoursSpecification: [
     {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      opens: "05:00",
+      opens: "09:00",
       closes: "21:00",
     },
     {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: "Saturday",
-      opens: "07:00",
-      closes: "18:00",
-    },
-    {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: "Sunday",
-      opens: "12:00",
-      closes: "18:00",
+      opens: "09:00",
+      closes: "17:00",
     },
   ],
   sameAs: [
-    "https://www.facebook.com/ProehlificPark/",
-    "https://www.instagram.com/proehlificpark/",
-    "https://x.com/proehlificpark",
-    "https://www.youtube.com/user/ProehlificPOWER",
+    "https://www.facebook.com/underdogmmact/",
+    "https://www.instagram.com/underdogmmact/",
   ],
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "5",
-    reviewCount: "100",
+    reviewCount: "50",
   },
   hasOfferCatalog: {
     "@type": "OfferCatalog",
-    name: "Programs & Services",
+    name: "Martial Arts Programs & Services",
     itemListElement: [
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Fitness & Weight Room",
+          name: "Mixed Martial Arts (MMA)",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Group Exercise Classes",
+          name: "Brazilian Jiu-Jitsu (BJJ)",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Youth Sports Programs",
+          name: "Muay Thai",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "Summer Blast Camp",
+          name: "Boxing",
         },
       },
       {
         "@type": "Offer",
         itemOffered: {
           "@type": "Service",
-          name: "After School Care",
+          name: "Wrestling",
         },
       },
     ],
@@ -173,11 +165,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://proehlificpark.com" />
-        <meta name="geo.region" content="US-NC" />
-        <meta name="geo.placename" content="Greensboro" />
-        <meta name="geo.position" content="36.0726;-79.8898" />
-        <meta name="ICBM" content="36.0726, -79.8898" />
+        <link rel="canonical" href="https://underdogmma.com" />
+        <meta name="geo.region" content="US-CT" />
+        <meta name="geo.placename" content="West Hartford" />
+        <meta name="geo.position" content="41.7628;-72.7420" />
+        <meta name="ICBM" content="41.7628, -72.7420" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

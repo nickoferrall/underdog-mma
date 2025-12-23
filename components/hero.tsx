@@ -10,21 +10,25 @@ export function Hero() {
   return (
     <section className="relative min-h-[100svh] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <img
-          src="https://res.cloudinary.com/display97/image/upload/q_auto,fl_lossy,f_auto/7466/Greensboros-Comprehensive-Sports-Center-With-Training-For-All-Ages-213363.jpg"
-          alt="Proehlific Park Sports Complex in Greensboro"
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
           className="absolute inset-0 w-full h-full object-cover"
-        />
+        >
+          <source src="https://res.cloudinary.com/display97/video/upload/vc_auto/mxicctundqla33wwi8wi.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70" />
       </div>
 
       <div className="container relative z-10 px-4 pt-32 pb-20">
         <div className="max-w-4xl">
           <h1 className="text-3xl sm:text-4xl md:text-7xl font-bold text-white mb-4 md:mb-6 leading-tight drop-shadow-lg">
-            Greensboro&apos;s Comprehensive Sports Training Center
+            Premier Martial Arts Training in West Hartford
           </h1>
           <p className="text-base sm:text-lg md:text-2xl text-white/90 mb-6 md:mb-10 max-w-2xl leading-relaxed drop-shadow-md">
-            Find the P.O.W.E.R. in Play. Fitness, sports, youth programs, and more for athletes of all ages.
+            Expert instruction in MMA, Brazilian Jiu-Jitsu, Muay Thai, boxing, and wrestling. Train with the best in Connecticut.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button

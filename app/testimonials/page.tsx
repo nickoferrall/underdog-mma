@@ -2,15 +2,15 @@ import { Metadata } from "next";
 import { HomeContent } from "@/components/home-content";
 
 export const metadata: Metadata = {
-  title: "Testimonials - Proehlific Park Greensboro",
+  title: "Testimonials - Underdog MMA | West Hartford, CT",
   description:
-    "Read testimonials from Proehlific Park members in Greensboro, NC. See what families and athletes have to say about their experience.",
+    "Read testimonials from Underdog MMA students in West Hartford, CT. See what our martial arts community has to say about their training experience.",
   openGraph: {
-    title: "Testimonials - Proehlific Park Greensboro",
+    title: "Testimonials - Underdog MMA | West Hartford, CT",
     description:
-      "Read testimonials from Proehlific Park members in Greensboro, NC. See what families and athletes have to say about their experience.",
-    url: "https://proehlificpark.com/testimonials",
-    images: ["/proehlific-facility.jpg"],
+      "Read testimonials from Underdog MMA students in West Hartford, CT. See what our martial arts community has to say about their training experience.",
+    url: "https://underdogmma.com/testimonials",
+    images: ["/underdog-facility.jpg"],
   },
 };
 

@@ -2,18 +2,18 @@ import { Metadata } from "next"
 import { HomeContent } from "@/components/home-content"
 
 export const metadata: Metadata = {
-  title: "Our Team - Proehlific Park",
+  title: "Our Instructors - Underdog MMA | West Hartford, CT",
   description:
-    "Meet the dedicated team at Proehlific Park. Our experienced directors, trainers, and staff are committed to helping you and your family achieve your fitness and athletic goals.",
+    "Meet the expert instructors at Underdog MMA. Our experienced martial arts coaches are committed to helping you achieve your training goals in West Hartford, Connecticut.",
   keywords: [
-    "Proehlific Park team",
-    "Ricky Proehl",
-    "Greensboro fitness trainers",
-    "sports coaches Greensboro",
-    "personal trainers Greensboro",
+    "Underdog MMA instructors",
+    "West Hartford martial arts coaches",
+    "MMA trainers Connecticut",
+    "BJJ instructors West Hartford",
+    "Muay Thai coaches Connecticut",
   ],
   alternates: {
-    canonical: "https://proehlificpark.com/team",
+    canonical: "https://underdogmma.com/team",
   },
 }
 

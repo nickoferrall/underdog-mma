@@ -2,18 +2,18 @@ import { Metadata } from "next";
 import { HomeContent } from "@/components/home-content";
 
 export const metadata: Metadata = {
-  title: "About Us - Proehlific Park Greensboro",
+  title: "About Us - Underdog MMA | West Hartford Martial Arts",
   description:
-    "Learn about Proehlific Park in Greensboro, NC. Founded by NFL wide receiver Ricky Proehl, our mission is to inspire through sports and fitness.",
+    "Learn about Underdog MMA in West Hartford, CT. Premier martial arts training with expert instruction in MMA, BJJ, Muay Thai, and more for all skill levels.",
   alternates: {
-    canonical: "https://proehlificpark.com/about",
+    canonical: "https://underdogmma.com/about",
   },
   openGraph: {
-    title: "About Us - Proehlific Park Greensboro",
+    title: "About Us - Underdog MMA | West Hartford Martial Arts",
     description:
-      "Learn about Proehlific Park in Greensboro, NC. Founded by NFL wide receiver Ricky Proehl, our mission is to inspire through sports and fitness.",
-    url: "https://proehlificpark.com/about",
-    images: ["/proehlific-facility.jpg"],
+      "Learn about Underdog MMA in West Hartford, CT. Premier martial arts training with expert instruction in MMA, BJJ, Muay Thai, and more.",
+    url: "https://underdogmma.com/about",
+    images: ["/underdog-facility.jpg"],
   },
 };
 

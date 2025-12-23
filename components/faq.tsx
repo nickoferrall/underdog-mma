@@ -5,34 +5,34 @@ import { useState } from "react"
 
 const faqs = [
   {
-    question: "What programs does Proehlific Park offer?",
+    question: "What martial arts programs does Underdog MMA offer?",
     answer:
-      "Proehlific Park offers a comprehensive range of programs including fitness and weight room access, group exercise classes, cycling studio, youth sports leagues, adult sports leagues, after school care, Summer Blast camp, PSP (Proehlific Sports Performance) training, and facility rentals for events and parties.",
+      "Underdog MMA offers comprehensive training in Mixed Martial Arts (MMA), Brazilian Jiu-Jitsu (BJJ), Muay Thai, boxing, and wrestling. We also have specialized kids programs designed for children of all ages. All programs are designed for students of all skill levels, from complete beginners to advanced competitors.",
   },
   {
-    question: "What are your membership options?",
+    question: "Do I need prior experience to start training?",
     answer:
-      "We offer various membership options to fit your needs. All memberships include access to our fitness center, locker rooms with saunas and showers, free WiFi, and a complimentary one-hour fitness consultation. Contact us to learn about current pricing and family rates.",
+      "No prior experience is necessary! We welcome complete beginners and have programs specifically designed for those new to martial arts. Our instructors will guide you through the fundamentals and help you progress at your own pace. Many of our most dedicated students started with no prior martial arts experience.",
   },
   {
-    question: "What is Summer Blast camp?",
+    question: "What are your class schedules and membership options?",
     answer:
-      "Summer Blast is our popular summer program for kids when school is out. Children participate in a variety of activities including sports, games, dodgeball, arts and crafts, and more. Our dedicated staff creates a fun, safe environment where kids come home tired and happy! We also offer care during teacher workdays, holidays, and inclement weather closings.",
+      "We offer multiple class times throughout the week to accommodate different schedules. Classes are available Monday through Friday evenings and Saturday mornings. We offer flexible membership options including monthly unlimited memberships and class packages. Contact us to learn about current pricing and find the best option for your training goals.",
   },
   {
-    question: "Do you offer after school programs?",
+    question: "Do you offer kids programs?",
     answer:
-      "Yes! Our after school program provides a safe, fun environment for children after school hours. Kids participate in sports, games, and activities while making friends and staying active. Parents love the convenience and peace of mind our program provides.",
+      "Yes! We have age-appropriate martial arts programs for children that focus on building confidence, discipline, respect, and self-defense skills in a fun, safe environment. Our kids programs teach fundamental techniques while emphasizing character development and physical fitness.",
   },
   {
-    question: "What sports do you offer for youth and adults?",
+    question: "Can I train for competition?",
     answer:
-      "We offer a wide range of sports including basketball, baseball, football, soccer, and lacrosse. We have both youth and adult leagues as well as drop-in games. Whether you're looking for competitive league play or casual pickup games, we have options for all skill levels.",
+      "Absolutely! We have competition-focused training programs for students interested in competing in MMA, BJJ, Muay Thai, or boxing tournaments. Our experienced instructors provide specialized coaching, sparring sessions, and competition preparation to help you perform at your best.",
   },
   {
-    question: "Can I tour the facility before joining?",
+    question: "Can I visit the facility before joining?",
     answer:
-      "Absolutely! We encourage everyone to stop by and take a tour of our facility. We would love to meet you and show you our awesome staff and amenities. Contact us to schedule a visit and see why Proehlific Park is Greensboro's premier sports training center.",
+      "Yes, we encourage everyone to visit our facility and see what we have to offer! We offer free trial classes so you can experience our training firsthand. Contact us to schedule a visit and meet our instructors. We'd love to show you why Underdog MMA is West Hartford's premier martial arts academy.",
   },
 ]
 
@@ -49,7 +49,7 @@ export function FAQ() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">Frequently Asked Questions</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Get answers to common questions about Proehlific Park
+            Get answers to common questions about Underdog MMA
           </p>
         </div>
 

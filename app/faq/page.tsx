@@ -2,18 +2,18 @@ import { Metadata } from "next";
 import { HomeContent } from "@/components/home-content";
 
 export const metadata: Metadata = {
-  title: "FAQ - Proehlific Park Greensboro",
+  title: "FAQ - Underdog MMA | West Hartford Martial Arts",
   description:
-    "Frequently asked questions about Proehlific Park in Greensboro, NC. Learn about memberships, programs, youth activities, and more.",
+    "Frequently asked questions about Underdog MMA in West Hartford, CT. Learn about martial arts programs, memberships, class schedules, and training for all skill levels.",
   alternates: {
-    canonical: "https://proehlificpark.com/faq",
+    canonical: "https://underdogmma.com/faq",
   },
   openGraph: {
-    title: "FAQ - Proehlific Park Greensboro",
+    title: "FAQ - Underdog MMA | West Hartford Martial Arts",
     description:
-      "Frequently asked questions about Proehlific Park in Greensboro, NC. Learn about memberships, programs, youth activities, and more.",
-    url: "https://proehlificpark.com/faq",
-    images: ["/proehlific-facility.jpg"],
+      "Frequently asked questions about Underdog MMA in West Hartford, CT. Learn about martial arts programs, memberships, and training.",
+    url: "https://underdogmma.com/faq",
+    images: ["/underdog-facility.jpg"],
   },
 };
 

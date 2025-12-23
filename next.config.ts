@@ -8,6 +8,14 @@ const nextConfig: NextConfig = {
         hostname: 'res.cloudinary.com',
         pathname: '/display97/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'd2o49aegihq4d1.cloudfront.net',
+      },
     ],
   },
   async redirects() {

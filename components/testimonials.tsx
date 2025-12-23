@@ -5,33 +5,33 @@ import { useState } from "react"
 
 const testimonials = [
   {
-    text: "Proehlific Park's after-school program has been an absolute life saver this past year, not only for me as a parent, but for my child as well! He absolutely loves going to Proehlific, loves all of the sports and activities he gets to do, friends he has made, and most of all, LOVES the coaches and Angie!",
-    author: "Amy S.",
+    text: "If you are looking for the real deal, if you are serious about becoming a proficient fighter, Underdog is the only place for you! There is no other mixed martial arts gym in the Hartford area that has what Underdog offers. Boxing, Muay Thai, Wrestling and MMA training.",
+    author: "Yosef, Rabbi",
     source: "google",
   },
   {
-    text: "My kids absolutely love the Summer Blast program at Proehlific! Mrs. Angie and her staff are amazing, you can see how much they love the kids.",
-    author: "Demetria S.",
+    text: "Underdog BJJ provided me top-notch training in both martial arts and strength & conditioning. They accepted me as family and took me in as one of their own. The coaches and instructors provided me with mentorship and guidance that carried on beyond the mats.",
+    author: "Cesar T., District Manager",
     source: "google",
   },
   {
-    text: "Summer Blast has been the much needed break for my son and I. We are so happy that this summer program is able to accommodate so many children and working parents. All the protocols and procedures that you have in place to serve and protect our children is much appreciated.",
-    author: "Capricia M.",
+    text: "I joined Underdog after fighting for a few other gyms, and the fight team and trainers made me feel like family. The team really cares about everyone here and the training is excellent. It is comforting to know you have the support of this team.",
+    author: "Erik L., Construction Manager",
     source: "google",
   },
   {
-    text: "This has been the absolute best experience for my 6 year old son. We love everyone here, they go above and beyond with the kids. Thankful for this place.",
-    author: "Tiffine B.",
+    text: "Some people join fraternities in college. I joined Underdog. I was in a dark place in college, going through some tough times, and Underdog saved me. I joined because I missed martial arts training and this community helped me through.",
+    author: "John D., S&C Coach",
     source: "google",
   },
   {
-    text: "We Love Proehlific Park Summer BLAST Camp! As a working parent, I had to find a summer camp during COVID-19. I reached out to Angie and explained my situation. Angie and the Summer Blast Camp Coaches are awesome! Very professional and each week the coaches would communicate with me on how my son was doing.",
-    author: "Jessica H.",
+    text: "Since joining Underdog in 2010, I have gone from a relatively unknown mixed martial artist, to a top 50 ranked featherweight in the world; competing against the highest level fighters in the game today.",
+    author: "Matt B., Pro MMA Fighter",
     source: "google",
   },
   {
-    text: "Want your child to come home hungry and tired every day? Begging to stay just a few more minutes? That's exactly what you get when your child attends Summer Blast! at Proehlific Park. Our very active 9 year old LOVES his time playing with the other kids and learning from the coaches.",
-    author: "Jo V.",
+    text: "Having been in the military and a student of the martial arts & police/military combat systems, I can say that Underdog offers exceptional training. The instruction and community are second to none.",
+    author: "Lou, Commander USCG",
     source: "google",
   },
 ]
@@ -43,9 +43,9 @@ export function Testimonials() {
     <section id="testimonials" className="py-20 bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">What Our Members Say</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">What Our Students Say</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Join a community that supports and motivates each other every day
+            Join a martial arts community that supports and motivates each other every day
           </p>
         </div>
 

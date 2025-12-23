@@ -166,7 +166,7 @@ export function BookingModal({
                 required
                 value={formData.phone}
                 onChange={handleChange}
-                placeholder="(336) 665-5233"
+                placeholder="(860) 616-1365"
                 className="h-11"
               />
             </div>
@@ -174,7 +174,7 @@ export function BookingModal({
             <div className="bg-blue-50 border border-blue-200 rounded-lg p-3">
               <p className="text-xs text-blue-900">
                 By submitting this form, you agree to receive SMS messages from
-                Proehlific Park to provide the information you requested about
+                Underdog MMA to provide the information you requested about
                 programs and membership. Message and data rates may apply. Reply
                 STOP to opt-out anytime.
               </p>
